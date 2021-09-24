@@ -23,7 +23,7 @@ object Simulation2c:
     val dataCenterBrokerSimple = SimulationUtil.create_Broker(cloudSim)
 
     // Creating DataCenter
-    val dataCenterSimple = SimulationUtil.create_DataCenter("simulation2c", new VmAllocationPolicyRoundRobin)
+    val dataCenterSimple = SimulationUtil.create_DataCenter("simulation2c", new VmAllocationPolicyFirstFit)
 
     // Creating VMs
     val vmList = SimulationUtil.create_Vm()
