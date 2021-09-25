@@ -12,7 +12,7 @@ class Simulation1a
 object Simulation1a:
   @main def start1a()= {
 
-  val logger = LoggerFactory.getLogger("simulation1")
+  val logger = LoggerFactory.getLogger("simulation1a")
 
   val SimulationUtil = new SimulationUtil()
 
